@@ -4,6 +4,8 @@
 
 # Testes de API usando rest assured
 
+## Repositório
+
 * Branch do vídeo - `pt-01-projeto-inicial`
 * Master branch - `pt-master`
 
@@ -34,6 +36,8 @@
 ---
 
 # API testing using rest assured
+
+## Repository
 
 * Video's Branch - `en-01-initial-project`
 * Master branch - `en-master`
