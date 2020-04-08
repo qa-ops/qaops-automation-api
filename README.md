@@ -1,10 +1,11 @@
-<a href='#nComo-testar-API-usando-rest-assured-|-Criando-o-projeto'><img src="images/pt-br.png" alt="Português" width="50" /></a>
-<a href='#API-testing-using-rest-assured-and-java-|-creating-the-project'><img src="images/en.jpg" alt="English" width="50" /></a>
+<a href='#Testes-de-API-usando-rest-assured'><img src="images/pt-br.png" alt="Português" width="50" /></a>
+<a href='#API-testing-using-rest-assured'><img src="images/en.jpg" alt="English" width="50" /></a>
 
 
-# Como testar API usando rest assured | Criando o projeto
+# Testes de API usando rest assured
 
-* Branch - `pt-01-projeto-inicial`
+* Branch do vídeo - `pt-01-projeto-inicial`
+* Master branch - `pt-master`
 
 ### Requisitos:
 * Java 8+
@@ -32,9 +33,10 @@
 
 ---
 
-# API testing using rest assured and java | creating the project
+# API testing using rest assured
 
-* Branch - `en-01-initial-project`
+* Video's Branch - `en-01-initial-project`
+* Master branch - `en-master`
 
 ### Requirements:
 * Java 8+
