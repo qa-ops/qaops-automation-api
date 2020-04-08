@@ -1,26 +1,26 @@
-<a href='#nome-do-video'><img src="images/pt-br.png" alt="Português" width="50" /></a>
-<a href='#video-name'><img src="images/en.jpg" alt="English" width="50" /></a>
+<a href='#nComo-testar-API-usando-rest-assured-|-Criando-o-projeto'><img src="images/pt-br.png" alt="Português" width="50" /></a>
+<a href='#API-testing-using-rest-assured-and-java-|-creating-the-project'><img src="images/en.jpg" alt="English" width="50" /></a>
 
 
 # Como testar API usando rest assured | Criando o projeto
 
 * Branch - `pt-01-projeto-inicial`
 
-###Requisitos:
+### Requisitos:
 * Java 8+
 * Gradle 6.3
 
-###Comandos
+### Comandos
 * `gradle init` - criar um projeto gradle
 * `gradle wrapper` - necessário para criar o Gradle wrapper para poder rodar o gradlew
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
-##Vídeo
+##V ídeo
 
 * [Vídeo Completo](https://youtu.be/EjXimnUwAns) 
 
-###Índice
+### Índice
 
 1. [Onde API está na Pirâmide testes](https://youtu.be/EjXimnUwAns?t=51)
 2. [Criando o projeto gradle](https://youtu.be/EjXimnUwAns?t=164)
@@ -36,21 +36,21 @@
 
 * Branch - `en-01-initial-project`
 
-###Requirements:
+### Requirements:
 * Java 8+
 * Gradle 6.3
 
-###Commands
+### Commands
 * `gradle init` - criar um projeto gradle
 * `gradle wrapper` - necessário para criar o Gradle wrapper para poder rodar o gradlew
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
-##Video
+## Video
 
 * [Full Completo](https://youtu.be/EjXimnUwAns) 
 
-##Table of Contents
+## Table of Contents
 
 1. [Test Pyramid](https://youtu.be/MnPx1uoYyac?t=34)
 2. [Creating a gradle project](https://youtu.be/MnPx1uoYyac?t=128)
