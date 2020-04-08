@@ -7,10 +7,12 @@
 
 ## Repositório
 
-* Branch do vídeo - `pt-01-projeto-inicial`
-* Branch master - `pt-master`
+* Branches
+    * Master(contém o código do último vídeo)  - `pt-master` 
+    * Vídeo 1 - `pt-01-projeto-inicial`
 
-### Requisitos:
+
+### Requisitos
 * Java 8+
 * Gradle 6.3
 
@@ -40,10 +42,11 @@
 
 ## Repository
 
-* Video's Branch - `en-01-initial-project`
-* Master branch - `en-master`
+* Branches
+    * Master(has the code from the last video)  - `en-master` 
+    * Video 1 - `en-01-initial-project`
 
-### Requirements:
+### Requirements
 * Java 8+
 * Gradle 6.3
 
