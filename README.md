@@ -17,7 +17,7 @@
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
-##V ídeo
+##Vídeo
 
 * [Vídeo Completo](https://youtu.be/EjXimnUwAns) 
 
@@ -50,9 +50,9 @@
 
 ## Video
 
-* [Full Completo](https://youtu.be/EjXimnUwAns) 
+* [Full Video](https://youtu.be/EjXimnUwAns) 
 
-## Table of Contents
+### Table of Contents
 
 1. [Test Pyramid](https://youtu.be/MnPx1uoYyac?t=34)
 2. [Creating a gradle project](https://youtu.be/MnPx1uoYyac?t=128)
