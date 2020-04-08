@@ -54,7 +54,7 @@
 
 ## Video
 
-* [Full Video](https://youtu.be/EjXimnUwAns) 
+* <a href="https://youtu.be/EjXimnUwAns" target="_blank">Full Video</a> 
 
 ### Table of Contents
 
