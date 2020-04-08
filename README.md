@@ -43,8 +43,8 @@
 * Gradle 6.3
 
 ### Commands
-* `gradle init` - criar um projeto gradle
-* `gradle wrapper` - necessário para criar o Gradle wrapper para poder rodar o gradlew
+* `gradle init` - creates the gradle project
+* `gradle wrapper` - needed for creating create the gradle wrapper in order to run the gradlew
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
