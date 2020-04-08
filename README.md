@@ -12,7 +12,7 @@
 * Gradle 6.3
 
 ### Branches
-* Master(contém o código do último vídeo)  - `pt-master` 
+* Master (contém o código do último vídeo)  - `pt-master` 
 * Vídeo 1 - `pt-01-projeto-inicial`
 
 
@@ -47,7 +47,7 @@
 * Gradle 6.3
 
 ### Branches
-* Master(has the code from the last video)  - `en-master` 
+* Master (has the code from the last video)  - `en-master` 
 * Video 1 - `en-01-initial-project`
 
 ### Commands
