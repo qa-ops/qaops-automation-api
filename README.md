@@ -17,7 +17,7 @@
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
-##Vídeo
+## Vídeo
 
 * [Vídeo Completo](https://youtu.be/EjXimnUwAns) 
 
