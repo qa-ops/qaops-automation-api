@@ -25,7 +25,8 @@
 
 ## Vídeo
 
-* [Vídeo Completo](https://youtu.be/EjXimnUwAns) 
+* [Vídeo 1](https://youtu.be/EjXimnUwAns)
+* [Vídeo 2](https://youtu.be/Yko4DTEmAV8) 
 
 ### Índice
 
@@ -63,7 +64,8 @@
 
 ## Video
 
-* [Full Video](https://youtu.be/EjXimnUwAns) 
+* [Video 1](https://youtu.be/EjXimnUwAns)
+* [Video 2](https://youtu.be/ZHkms9dhfVs)
 
 ### Table of Contents
 
