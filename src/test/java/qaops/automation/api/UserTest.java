@@ -9,23 +9,29 @@ import org.apache.http.HttpStatus;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import static io.restassured.RestAssured.basePath;
+import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
-public class AppTest {
+public class UserTest {
 
     @BeforeClass
     public static void setup() {
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        baseURI = "https://reqres.in";
+        basePath = "/api";
     }
 
 
     @Test
     public void testListUserMetadata() {
+        given().
+            params("page","2").
         when().
-            get("https://reqres.in/api/users?page=2").
+            get("/users").
         then().
             statusCode(HttpStatus.SC_OK).
             body("page", is(2)).
@@ -38,7 +44,7 @@ public class AppTest {
             contentType(ContentType.JSON).
             body("{\"name\": \"rafael\", \"job\": \"eng test\" }").
         when().
-            post("https://reqres.in/api/user").
+            post("/user").
         then().
             statusCode(HttpStatus.SC_CREATED).
             body("name", is("rafael"));
