@@ -8,6 +8,7 @@ import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import qaops.automation.api.domain.User;
 
 import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.baseURI;
@@ -40,9 +41,11 @@ public class UserTest {
 
     @Test
     public void testSuccessfullyCreateaUser() {
+        User user = new User("rafael", "eng test");
+
         given().
             contentType(ContentType.JSON).
-            body("{\"name\": \"rafael\", \"job\": \"eng test\" }").
+            body(user).
         when().
             post("/user").
         then().
