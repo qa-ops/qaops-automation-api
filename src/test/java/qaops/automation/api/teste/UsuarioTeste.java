@@ -7,8 +7,13 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.CoreMatchers.*;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.basePath;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+
 
 public class UsuarioTeste {
 
