@@ -30,17 +30,17 @@
 
 ### Índice
 
-1. [Vídeo 1 - Onde API está na Pirâmide testes](https://youtu.be/EjXimnUwAns?t=51)
-2. [Vídeo 1 - Criando o projeto gradle](https://youtu.be/EjXimnUwAns?t=164)
-3. [Vídeo 1 - Explicando a estrutura criada](https://youtu.be/EjXimnUwAns?t=445)
-4. [Vídeo 1 - Dependência dinâmica](https://youtu.be/EjXimnUwAns?t=832)
-5. [Vídeo 1 - Criando o primeiro teste](https://youtu.be/EjXimnUwAns?t=909)
-1. [Vídeo 2 - Baixando o projeto](https://youtu.be/Yko4DTEmAV8?t=32)
-2. [Vídeo 2 - Colocando as dependências do RestAssured](https://youtu.be/Yko4DTEmAV8?t=230)
-3. [Vídeo 2 - Apresentando API que será testada](https://youtu.be/Yko4DTEmAV8?t=575)
-4. [Vídeo 2 - Fazendo o primeiro test GET](https://youtu.be/Yko4DTEmAV8?t=655)
-5. [Vídeo 2 - Fazendo o primeiro test POST](https://youtu.be/Yko4DTEmAV8?t=1509)
-6. [Vídeo 2 - Log mais detalhado (ou verboso)](https://youtu.be/Yko4DTEmAV8?t=1951)
+1. [Onde API está na Pirâmide testes - Vídeo 1](https://youtu.be/EjXimnUwAns?t=51)
+2. [Criando o projeto gradle - Vídeo 1](https://youtu.be/EjXimnUwAns?t=164)
+3. [Explicando a estrutura criada - Vídeo 1](https://youtu.be/EjXimnUwAns?t=445)
+4. [Dependência dinâmica - Vídeo 1](https://youtu.be/EjXimnUwAns?t=832)
+5. [Criando o primeiro teste - Vídeo 1](https://youtu.be/EjXimnUwAns?t=909)
+1. [Baixando o projeto - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=32)
+2. [Colocando as dependências do RestAssured - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=230)
+3. [Apresentando API que será testada - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=575)
+4. [Fazendo o primeiro test GET - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=655)
+5. [Fazendo o primeiro test POST - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=1509)
+6. [Log mais detalhado (ou verboso) - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=1951)
 
 ---
 
@@ -70,14 +70,14 @@
 
 ### Table of Contents
 
-1. [Video 1 - Test Pyramid](https://youtu.be/MnPx1uoYyac?t=34)
-2. [Video 1 - Creating a gradle project](https://youtu.be/MnPx1uoYyac?t=128)
-3. [Video 1 - Explaining the created structure](https://youtu.be/MnPx1uoYyac?t=375)
-4. [Video 1 - Creating the first test](https://youtu.be/MnPx1uoYyac?t=909)
-5. [Video 1 - Dynamic dependency](https://youtu.be/MnPx1uoYyac?t=981)
-1. [Video 2 - Downloading the project](https://youtu.be/ZHkms9dhfVs?t=34)
-2. [Video 2 - Showing the API to be tested](https://youtu.be/ZHkms9dhfVs?t=216)
-3. [Video 2 - Inserting RestAssured dependencies](https://youtu.be/ZHkms9dhfVs?t=283)
-4. [Video 2 - Creating the first GET test](https://youtu.be/ZHkms9dhfVs?t=468)
-5. [Video 2 - Creating the first POST test](https://youtu.be/ZHkms9dhfVs?t=1119)
-6. [Video 2 - More detailed log (verbose)](https://youtu.be/ZHkms9dhfVs?t=1548)
+1. [Test Pyramid - Video 1](https://youtu.be/MnPx1uoYyac?t=34)
+2. [Creating a gradle project - Video 1](https://youtu.be/MnPx1uoYyac?t=128)
+3. [Explaining the created structure - Video 1](https://youtu.be/MnPx1uoYyac?t=375)
+4. [Creating the first test - Video 1](https://youtu.be/MnPx1uoYyac?t=909)
+5. [Dynamic dependency - Video 1](https://youtu.be/MnPx1uoYyac?t=981)
+1. [Downloading the project - Video 2](https://youtu.be/ZHkms9dhfVs?t=34)
+2. [Showing the API to be tested - Video 2](https://youtu.be/ZHkms9dhfVs?t=216)
+3. [Inserting RestAssured dependencies - Video 2](https://youtu.be/ZHkms9dhfVs?t=283)
+4. [Creating the first GET test - Video 2](https://youtu.be/ZHkms9dhfVs?t=468)
+5. [Creating the first POST test - Video 2](https://youtu.be/ZHkms9dhfVs?t=1119)
+6. [More detailed log (verbose) - Video 2](https://youtu.be/ZHkms9dhfVs?t=1548)
