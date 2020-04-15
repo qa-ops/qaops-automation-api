@@ -55,6 +55,7 @@
 ### Branches
 * Master (has the code from the last video)  - `en-master` 
 * Video 1 - `en-01-initial-project`
+* Video 2 - `en-02-create-first-restassured-tests`
 
 ### Commands
 * `gradle init` - creates the gradle project
