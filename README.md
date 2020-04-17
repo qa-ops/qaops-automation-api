@@ -15,6 +15,7 @@
 * Master (contém o código do último vídeo)  - `pt-master` 
 * Vídeo 1 - `pt-01-projeto-inicial`
 * Vídeo 2 - `pt-02-primeiros-testes-com-rest-assured`
+* Vídeo 3 - `pt-03-refatora-e-faz-serializacao`
 
 
 ### Comandos
@@ -27,6 +28,7 @@
 
 * [Vídeo 1](https://youtu.be/EjXimnUwAns)
 * [Vídeo 2](https://youtu.be/Yko4DTEmAV8) 
+* [Vídeo 3](https://youtu.be/nYC2_DruHVU) 
 
 ### Índice
 
@@ -41,6 +43,10 @@
 4. [Fazendo o primeiro test GET - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=655)
 5. [Fazendo o primeiro test POST - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=1509)
 6. [Log mais detalhado (ou verboso) - Vídeo 2](https://youtu.be/Yko4DTEmAV8?t=1951)
+1. [RestAssured params na query string - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=158)
+2. [Configurando RestAssured com BasePath e BaseURI - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=425)
+3. [Criando classe de domínio - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=910)
+4. [Serializando objeto java em json - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=1113)
 
 ---
 
@@ -56,6 +62,7 @@
 * Master (has the code from the last video)  - `en-master` 
 * Video 1 - `en-01-initial-project`
 * Video 2 - `en-02-create-first-restassured-tests`
+* Video 3 - `en-03-refactor-and-serialize`
 
 ### Commands
 * `gradle init` - creates the gradle project
@@ -67,6 +74,7 @@
 
 * [Video 1](https://youtu.be/EjXimnUwAns)
 * [Video 2](https://youtu.be/ZHkms9dhfVs)
+* [Video 3](https://youtu.be/jQ43TLg2p70)
 
 ### Table of Contents
 
@@ -81,3 +89,7 @@
 4. [Creating the first GET test - Video 2](https://youtu.be/ZHkms9dhfVs?t=468)
 5. [Creating the first POST test - Video 2](https://youtu.be/ZHkms9dhfVs?t=1119)
 6. [More detailed log (verbose) - Video 2](https://youtu.be/ZHkms9dhfVs?t=1548)
+1. [RestAssured params in the query string - Video 3](https://youtu.be/jQ43TLg2p70?t=158)
+2. [RestAssured BasePath and BaseURI - Video 3](https://youtu.be/jQ43TLg2p70?t=425)
+3. [Creating domain class - Video 3](https://youtu.be/jQ43TLg2p70?t=910)
+4. [Serialization of java object into json - Video 3](https://youtu.be/jQ43TLg2p70?t=1113)
