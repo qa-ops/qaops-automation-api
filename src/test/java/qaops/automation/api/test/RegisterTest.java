@@ -10,6 +10,8 @@ import static org.hamcrest.CoreMatchers.is;
 
 public class RegisterTest extends BaseTest {
 
+    private static final String REGISTER_NEW_USER = "/register";
+
     @Test
     public void testUnableToRegisterWhenPasswordMissing() {
         User user = new User();
@@ -18,7 +20,7 @@ public class RegisterTest extends BaseTest {
         given().
             body(user).
         when().
-            post("/register").
+            post(REGISTER_NEW_USER).
         then().
             statusCode(HttpStatus.SC_BAD_REQUEST).
             body("error", is("Missing password"));
