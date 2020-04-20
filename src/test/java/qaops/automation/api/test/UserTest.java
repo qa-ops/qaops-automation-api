@@ -31,7 +31,6 @@ public class UserTest extends BaseTest {
         User user = new User("rafael", "eng test", "email@gmail.com");
 
         given().
-            contentType(ContentType.JSON).
             body(user).
         when().
             post("/user").

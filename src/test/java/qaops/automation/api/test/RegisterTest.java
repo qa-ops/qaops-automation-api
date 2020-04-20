@@ -16,7 +16,6 @@ public class RegisterTest extends BaseTest {
         user.setEmail("eve.holt@reqres.in");
 
         given().
-            contentType(ContentType.JSON).
             body(user).
         when().
             post("/register").
