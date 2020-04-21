@@ -1,24 +1,16 @@
 package qaops.automation.api.teste;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.CoreMatchers.*;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
 
-public class UsuarioTeste {
-
-    @BeforeClass
-    public static void setup() {
-        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-        baseURI = "https://reqres.in";
-        basePath = "/api";
-    }
-
+public class UsuarioTeste extends BaseTeste {
 
     @Test
     public void testListaPaginaDeUsuarioEspecifica() {
@@ -44,16 +36,5 @@ public class UsuarioTeste {
         then().
             statusCode(HttpStatus.SC_CREATED).
             body("name", is("rafael"));
-    }
-
-    @Test
-    public void testListaUsuario() {
-        given().
-            pathParam("user", "2").
-        when().
-            get("/users/{user}").
-        then().
-            statusCode(HttpStatus.SC_OK).
-            body("data.email", containsString("@reqres.in"));
     }
 }
