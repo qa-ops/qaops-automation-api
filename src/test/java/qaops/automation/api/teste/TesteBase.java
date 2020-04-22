@@ -8,7 +8,7 @@ import org.junit.BeforeClass;
 import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.baseURI;
 
-public class BaseTeste {
+public class TesteBase {
 
     @BeforeClass
     public static void setup() {
