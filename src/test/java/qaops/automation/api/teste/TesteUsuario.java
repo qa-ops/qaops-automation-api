@@ -15,7 +15,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 
-public class UsuarioTeste {
+public class TesteUsuario {
 
     @BeforeClass
     public static void setup() {
@@ -26,7 +26,7 @@ public class UsuarioTeste {
 
 
     @Test
-    public void testListaPaginaDeUsuarioEspecifica() {
+    public void testeListaPaginaDeUsuarioEspecifica() {
         given().
             params("page","2").
         when().
@@ -38,7 +38,7 @@ public class UsuarioTeste {
     }
 
     @Test
-    public void testSuccessfullyCreateaUser() {
+    public void testeCriaUsuarioComSucesso() {
         Usuario usuario = new Usuario("rafael","eng test");
 
         given().
@@ -49,16 +49,5 @@ public class UsuarioTeste {
         then().
             statusCode(HttpStatus.SC_CREATED).
             body("name", is("rafael"));
-    }
-
-    @Test
-    public void testListaUsuario() {
-        given().
-            pathParam("user", "2").
-        when().
-            get("/users/{user}").
-        then().
-            statusCode(HttpStatus.SC_OK).
-            body("data.email", containsString("@reqres.in"));
     }
 }
