@@ -13,7 +13,6 @@ public class UserTest extends BaseTest {
 
     private static final String LIST_USERS_ENDPOINT = "/users";
     private static final String CREATE_USER_ENDPOINT = "/user";
-    private static final String SHOW_USER_ENDPOINT = "/users/{userId}";
 
     @Test
     public void testSpecificPageIsDisplayed() {
@@ -57,17 +56,6 @@ public class UserTest extends BaseTest {
                 "data.size()", is(expectedItemsPerPage ),
                 "data.findAll { it.avatar.startsWith('https://s3.amazonaws.com') }.size()", is(expectedItemsPerPage)
             );
-    }
-
-    @Test
-    public void testSpecificUserIsDisplayed() {
-        given().
-            pathParam("userId", "2").
-        when().
-            get(SHOW_USER_ENDPOINT).
-        then().
-            statusCode(HttpStatus.SC_OK).
-            body("data.email", containsString("@reqres.in"));
     }
 
     private int getExpectedItemsPerPage(int page) {
