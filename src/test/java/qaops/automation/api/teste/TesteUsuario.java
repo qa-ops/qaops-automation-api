@@ -40,16 +40,30 @@ public class TesteUsuario extends TesteBase {
 
     @Test
     public void testeTamanhoDosItemsMostradosIgualAoPerPage() {
+        int paginaEsperada = 2;
+        int perPageEsperado = retornaPerPageEsperado(paginaEsperada);
+
         given().
-            params("page", "2").
+            params("page", paginaEsperada).
         when().
            get(LISTA_USUARIOS_ENDPOINT).
         then().
             statusCode(HttpStatus.SC_OK).
             body(
-                "page", is(2),
-                "data.size()", is(6),
-                "data.findAll { it.avatar.startsWith('https://s3.amazonaws.com') }.size()", is(6)
+                "page", is(paginaEsperada),
+                "data.size()", is(perPageEsperado),
+                "data.findAll { it.avatar.startsWith('https://s3.amazonaws.com') }.size()", is(perPageEsperado)
             );
+    }
+
+    private int retornaPerPageEsperado(int page) {
+        return given().
+                    param("page", page).
+                when().
+                    get(LISTA_USUARIOS_ENDPOINT).
+                then().
+                    statusCode(HttpStatus.SC_OK).
+                extract().
+                    path("per_page");
     }
 }
