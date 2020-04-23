@@ -1,6 +1,5 @@
 package qaops.automation.api.teste;
 
-import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
@@ -8,12 +7,12 @@ import qaops.automation.api.dominio.Usuario;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
-public class RegistroTeste extends BaseTeste {
+public class TesteRegistro extends TesteBase {
 
     private static final String REGISTRA_USUARIO_ENDPOINT = "/register";
 
     @Test
-    public void testNaoEfetuaRegistroQuandoSenhaEstaFaltando() {
+    public void testeNaoEfetuaRegistroQuandoSenhaEstaFaltando() {
         Usuario usuario = new Usuario();
         usuario.setEmail("sydney@fife");
 
