@@ -37,4 +37,19 @@ public class TesteUsuario extends TesteBase {
             statusCode(HttpStatus.SC_CREATED).
             body("name", is("rafael"));
     }
+
+    @Test
+    public void testeTamanhoDosItemsMostradosIgualAoPerPage() {
+        given().
+            params("page", "2").
+        when().
+           get(LISTA_USUARIOS_ENDPOINT).
+        then().
+            statusCode(HttpStatus.SC_OK).
+            body(
+                "page", is(2),
+                "data.size()", is(6),
+                "data.findAll { it.avatar.startsWith('https://s3.amazonaws.com') }.size()", is(6)
+            );
+    }
 }
