@@ -14,7 +14,7 @@ public class UserTest extends BaseTest {
     private static final String CREATE_USER_ENDPOINT = "/user";
 
     @Test
-    public void testListUserMetadata() {
+    public void testSpecificPageIsDisplayed() {
         given().
             params("page","2").
         when().
@@ -26,7 +26,7 @@ public class UserTest extends BaseTest {
     }
 
     @Test
-    public void testSuccessfullyCreateaUser() {
+    public void testAbleToCreateNewUser() {
         User user = new User("rafael", "eng test", "email@gmail.com");
 
         given().
