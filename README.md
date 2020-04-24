@@ -16,6 +16,7 @@
 * Vídeo 1 - `pt-01-projeto-inicial`
 * Vídeo 2 - `pt-02-primeiros-testes-com-rest-assured`
 * Vídeo 3 - `pt-03-refatora-e-faz-serializacao`
+* Vídeo 4 - `pt-04-request-specification-e-teste-base`
 
 
 ### Comandos
@@ -29,6 +30,7 @@
 * [Vídeo 1](https://youtu.be/EjXimnUwAns)
 * [Vídeo 2](https://youtu.be/Yko4DTEmAV8) 
 * [Vídeo 3](https://youtu.be/nYC2_DruHVU) 
+* [Vídeo 4](https://youtu.be/fWf6dXnaGN8) 
 
 ### Índice
 
@@ -47,6 +49,11 @@
 2. [Configurando RestAssured com BasePath e BaseURI - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=425)
 3. [Criando classe de domínio - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=910)
 4. [Serializando objeto java em json - Vídeo 3](https://youtu.be/nYC2_DruHVU?t=1113)
+1. [Testando 400 Bad Request](https://youtu.be/fWf6dXnaGN8?t=168)
+2. [Adicionando Classe de Domínio](https://youtu.be/fWf6dXnaGN8?t=406)
+3. [Usando Herança para compartilhar setup de Teste](https://youtu.be/fWf6dXnaGN8?t=829)
+4. [Usando Request Specification](https://youtu.be/fWf6dXnaGN8?t=1042)
+5. [Endpoints como variáveis de classe](https://youtu.be/fWf6dXnaGN8?t=1215)
 
 ---
 
@@ -63,6 +70,7 @@
 * Video 1 - `en-01-initial-project`
 * Video 2 - `en-02-create-first-restassured-tests`
 * Video 3 - `en-03-refactor-and-serialize`
+* Video 4 - `en-04-request-specification-and-base-test`
 
 ### Commands
 * `gradle init` - creates the gradle project
@@ -75,6 +83,7 @@
 * [Video 1](https://youtu.be/EjXimnUwAns)
 * [Video 2](https://youtu.be/ZHkms9dhfVs)
 * [Video 3](https://youtu.be/jQ43TLg2p70)
+* [Video 4](https://youtu.be/fWf6dXnaGN8)
 
 ### Table of Contents
 
@@ -93,3 +102,8 @@
 2. [RestAssured BasePath and BaseURI - Video 3](https://youtu.be/jQ43TLg2p70?t=425)
 3. [Creating domain class - Video 3](https://youtu.be/jQ43TLg2p70?t=910)
 4. [Serialization of java object into json - Video 3](https://youtu.be/jQ43TLg2p70?t=1113)
+1. [Testing 400 Bad Request](https://youtu.be/fWf6dXnaGN8?t=171)
+2. [Adding domain class](https://youtu.be/fWf6dXnaGN8?t=375)
+3. [Using inheritance to share test setup](https://youtu.be/fWf6dXnaGN8?t=813)
+4. [Using Request Specification](https://youtu.be/fWf6dXnaGN8?t=966)
+5. [Endpoints as class variables](https://youtu.be/fWf6dXnaGN8?t=1078)
