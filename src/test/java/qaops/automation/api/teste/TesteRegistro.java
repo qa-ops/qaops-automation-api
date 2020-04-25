@@ -1,17 +1,13 @@
 package qaops.automation.api.teste;
 
 import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 import static org.hamcrest.CoreMatchers.is;
 
 public class TesteRegistro extends TesteBase {

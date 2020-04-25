@@ -1,6 +1,5 @@
 package qaops.automation.api.teste;
 
-import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
