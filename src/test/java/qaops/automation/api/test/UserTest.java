@@ -17,7 +17,7 @@ public class UserTest extends BaseTest {
     @Test
     public void testSpecificPageIsDisplayed() {
         given().
-            params("page","2").
+            param("page","2").
         when().
             get(LIST_USERS_ENDPOINT).
         then().
@@ -46,7 +46,7 @@ public class UserTest extends BaseTest {
         int expectedItemsPerPage = getExpectedItemsPerPage(expectedPage);
 
         given().
-            params("page",expectedPage).
+            param("page",expectedPage).
         when().
             get(LIST_USERS_ENDPOINT).
         then().
