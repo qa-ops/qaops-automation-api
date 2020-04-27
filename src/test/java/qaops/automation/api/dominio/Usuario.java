@@ -1,8 +1,14 @@
 package qaops.automation.api.dominio;
 
-public class Usuario {
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Usuario {
+    @JsonAlias({"first_name"})
     private String name;
+    @JsonAlias({"last_name"})
+    private String lastName;
     private String job;
     private String email;
 
@@ -12,6 +18,10 @@ public class Usuario {
         this.name = name;
         this.job = job;
         this.email = email;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -28,5 +38,9 @@ public class Usuario {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }
