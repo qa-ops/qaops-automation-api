@@ -55,7 +55,7 @@
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
-## Video
+## Videos
 
 1. [Creating the Project](https://youtu.be/MnPx1uoYyac)
 1. [Doing the first GET and POST tests](https://youtu.be/ZHkms9dhfVs)
