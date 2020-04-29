@@ -50,7 +50,7 @@
 * Video 2 - `en-02-create-first-restassured-tests`
 * Video 3 - `en-03-refactor-and-serialize`
 * Video 4 - `en-04-request-specification-and-base-test`
-* Video 4 - `en-05-groovy-collection-and-extract`
+* Video 5 - `en-05-groovy-collection-and-extract`
 
 ### Commands
 * `gradle init` - creates the gradle project
