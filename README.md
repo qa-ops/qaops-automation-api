@@ -30,7 +30,7 @@
 1. [Criando o Projeto](https://youtu.be/EjXimnUwAns)
 1. [Fazendo os primeiros testes GET e POST](https://youtu.be/Yko4DTEmAV8) 
 1. [Serialização e classe de domínio](https://youtu.be/nYC2_DruHVU) 
-1. [Request Spec e Herança](https://youtu.be/fWf6dXnaGN8) 
+1. [Request Spec e Herança](https://youtu.be/5Sb2Sf3GssI) 
 
 ---
 
@@ -60,4 +60,4 @@
 1. [Creating the Project](https://youtu.be/MnPx1uoYyac)
 1. [Doing the first GET and POST tests](https://youtu.be/ZHkms9dhfVs)
 1. [Serizalization and domain class](https://youtu.be/jQ43TLg2p70)
-1. [Request Spec and Inheritance](https://youtu.be/fWf6dXnaGN8)
+1. [Request Spec and Inheritance](https://youtu.be/AcWxLe9a7-E)
