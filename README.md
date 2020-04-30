@@ -59,5 +59,5 @@
 
 1. [Creating the Project](https://youtu.be/MnPx1uoYyac)
 1. [Doing the first GET and POST tests](https://youtu.be/ZHkms9dhfVs)
-1. [Serizalization and domain class](https://youtu.be/jQ43TLg2p70)
+1. [Serialization and domain class](https://youtu.be/jQ43TLg2p70)
 1. [Request Spec and Inheritance](https://youtu.be/AcWxLe9a7-E)
