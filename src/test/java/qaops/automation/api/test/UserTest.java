@@ -33,7 +33,7 @@ public class UserTest extends BaseTest {
 
     @Test
     public void testAbleToCreateNewUser() {
-        User user = new User("rafael", "eng test", "email@gmail.com");
+        User user = new User("rafael", "eng test", "email@gmail.com", "lima");
 
         given().
             body(user).
