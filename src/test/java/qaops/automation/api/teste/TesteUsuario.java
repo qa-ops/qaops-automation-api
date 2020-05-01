@@ -19,7 +19,7 @@ public class TesteUsuario extends TesteBase {
     @Test
     public void testeMostraPaginaEspecifica() {
         given().
-            params("page","2").
+            param("page","2").
         when().
             get(LISTA_USUARIOS_ENDPOINT).
         then().
@@ -30,7 +30,7 @@ public class TesteUsuario extends TesteBase {
 
     @Test
     public void testeCriaUsuarioComSucesso() {
-        Usuario usuario = new Usuario("rafael","eng test", "email@gmail.com");
+        Usuario usuario = new Usuario("rafael","eng test", "email@gmail.com", "lima");
 
         given().
             body(usuario).
@@ -47,7 +47,7 @@ public class TesteUsuario extends TesteBase {
         int perPageEsperado = retornaPerPageEsperado(paginaEsperada);
 
         given().
-            params("page", paginaEsperada).
+            param("page", paginaEsperada).
         when().
            get(LISTA_USUARIOS_ENDPOINT).
         then().
