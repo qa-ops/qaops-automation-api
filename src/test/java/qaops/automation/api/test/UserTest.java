@@ -33,7 +33,9 @@ public class UserTest extends BaseTest {
 
     @Test
     public void testAbleToCreateNewUser() {
-        User user = new User("rafael", "eng test", "email@gmail.com", "lima");
+        Map<String, String> user = new HashMap<>();
+        user.put("name", "rafael");
+        user.put("job", "eng test");
 
         given().
             body(user).
