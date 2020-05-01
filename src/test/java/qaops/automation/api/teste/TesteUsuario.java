@@ -4,6 +4,9 @@ import org.apache.http.HttpStatus;
 import org.junit.Test;
 import qaops.automation.api.dominio.Usuario;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
@@ -30,7 +33,9 @@ public class TesteUsuario extends TesteBase {
 
     @Test
     public void testeCriaUsuarioComSucesso() {
-        Usuario usuario = new Usuario("rafael","eng test", "email@gmail.com", "lima");
+        Map<String, String> usuario = new HashMap<>();
+        usuario.put("name", "rafael");
+        usuario.put("job", "eng test");
 
         given().
             body(usuario).
