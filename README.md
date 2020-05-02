@@ -36,7 +36,7 @@
 1. [Request Spec e Herança](https://youtu.be/5Sb2Sf3GssI) 
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/KQmJqdKgs74) 
 1. [Deserialização e Response Spec](https://youtu.be/l564EZXoHOA) 
-1. [Lombok e HashMap Post](https://youtu.be/LVKx6GByzPU) 
+1. [Lombok e Post com HashMap](https://youtu.be/LVKx6GByzPU) 
 
 ---
 
@@ -72,3 +72,4 @@
 1. [Request Spec and Inheritance](https://youtu.be/AcWxLe9a7-E)
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/q_Q9_F7DdwQ)
 1. [Deserialization and Response Spec](https://youtu.be/i33KgGqOC9I)
+1. [Lombok and Post with HashMap](https://youtu.be/Ux9GZJFnPdU)
