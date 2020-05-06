@@ -17,6 +17,7 @@
 * Vídeo 2 - `pt-02-primeiros-testes-com-rest-assured`
 * Vídeo 3 - `pt-03-refatora-e-faz-serializacao`
 * Vídeo 4 - `pt-04-request-specification-e-teste-base`
+* Vídeo 5 - `pt-05-groovy-collection-e-extract`
 
 
 ### Comandos
@@ -31,6 +32,7 @@
 1. [Fazendo os primeiros testes GET e POST](https://youtu.be/Yko4DTEmAV8) 
 1. [Serialização e classe de domínio](https://youtu.be/nYC2_DruHVU) 
 1. [Request Spec e Herança](https://youtu.be/5Sb2Sf3GssI) 
+1. [Groovy Collection e Rest Assured Extract](https://youtu.be/KQmJqdKgs74) 
 
 ---
 
@@ -48,6 +50,7 @@
 * Video 2 - `en-02-create-first-restassured-tests`
 * Video 3 - `en-03-refactor-and-serialize`
 * Video 4 - `en-04-request-specification-and-base-test`
+* Video 5 - `en-05-groovy-collection-and-extract`
 
 ### Commands
 * `gradle init` - creates the gradle project
@@ -61,3 +64,4 @@
 1. [Doing the first GET and POST tests](https://youtu.be/ZHkms9dhfVs)
 1. [Serialization and domain class](https://youtu.be/jQ43TLg2p70)
 1. [Request Spec and Inheritance](https://youtu.be/AcWxLe9a7-E)
+1. [Groovy Collection e Rest Assured Extract](https://youtu.be/q_Q9_F7DdwQ)
