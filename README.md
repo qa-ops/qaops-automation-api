@@ -20,6 +20,7 @@
 * Vídeo 5 - `pt-05-groovy-collection-e-extract`
 * Vídeo 6 - `pt-06-deserializacao-e-response-spec`
 * Vídeo 7 - `pt-07-lombok-e-hashmap`
+* Vídeo 8 - `pt-08-teste-usuario-alternativo`
 
 
 ### Comandos
@@ -37,6 +38,7 @@
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/KQmJqdKgs74) 
 1. [Deserialização e Response Spec](https://youtu.be/l564EZXoHOA) 
 1. [Lombok e Post com HashMap](https://youtu.be/LVKx6GByzPU) 
+1. [Teste usuário alternativo e próximos passos](https://youtu.be/BR-CUQf6bDA)
 
 ---
 
@@ -57,6 +59,7 @@
 * Video 5 - `en-05-groovy-collection-and-extract`
 * Video 6 - `en-06-deserialization-and-response-spec`
 * Video 7 - `en-07-lombok-and-hashmap`
+* Video 8 - `en-08-alternative-test`
 
 ### Commands
 * `gradle init` - creates the gradle project
@@ -73,3 +76,4 @@
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/q_Q9_F7DdwQ)
 1. [Deserialization and Response Spec](https://youtu.be/i33KgGqOC9I)
 1. [Lombok and Post with HashMap](https://youtu.be/Ux9GZJFnPdU)
+1. [Alternative test and next steps](https://youtu.be/PPqHsFPWS0A)
