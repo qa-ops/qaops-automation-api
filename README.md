@@ -19,6 +19,7 @@
 * Vídeo 4 - `pt-04-request-specification-e-teste-base`
 * Vídeo 5 - `pt-05-groovy-collection-e-extract`
 * Vídeo 6 - `pt-06-deserializacao-e-response-spec`
+* Vídeo 7 - `pt-07-lombok-e-hashmap`
 
 
 ### Comandos
@@ -35,6 +36,7 @@
 1. [Request Spec e Herança](https://youtu.be/5Sb2Sf3GssI) 
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/KQmJqdKgs74) 
 1. [Deserialização e Response Spec](https://youtu.be/l564EZXoHOA) 
+1. [Lombok e Post com HashMap](https://youtu.be/LVKx6GByzPU) 
 
 ---
 
@@ -54,6 +56,7 @@
 * Video 4 - `en-04-request-specification-and-base-test`
 * Video 5 - `en-05-groovy-collection-and-extract`
 * Video 6 - `en-06-deserialization-and-response-spec`
+* Video 7 - `en-07-lombok-and-hashmap`
 
 ### Commands
 * `gradle init` - creates the gradle project
@@ -69,3 +72,4 @@
 1. [Request Spec and Inheritance](https://youtu.be/AcWxLe9a7-E)
 1. [Groovy Collection e Rest Assured Extract](https://youtu.be/q_Q9_F7DdwQ)
 1. [Deserialization and Response Spec](https://youtu.be/i33KgGqOC9I)
+1. [Lombok and Post with HashMap](https://youtu.be/Ux9GZJFnPdU)
