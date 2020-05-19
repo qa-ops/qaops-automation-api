@@ -28,6 +28,7 @@
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
 * [Vídeo 8 - Próximos passos](images/en.jpg)
+* <a href='images/en.jpg'>[Vídeo 8 - Próximos passos]</a>
 
 ## Vídeos
 
