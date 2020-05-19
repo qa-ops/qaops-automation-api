@@ -29,6 +29,10 @@
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
 
+### Slides
+
+* [Vídeo 8 - Próximos passos](slides/video8-br.pdf)
+
 ## Vídeos
 
 1. [Criando o Projeto](https://youtu.be/EjXimnUwAns)
@@ -66,6 +70,10 @@
 * `gradle wrapper` - needed for creating create the gradle wrapper in order to run the gradlew
 * `./gradlew tasks` - mostra todas as tarefas disponíveis
 * `./gradlew test` - roda todos os testes do pacote 'src/test'
+
+### Slides
+
+* [Video 8 - Next Steps](slides/video8-en.pdf)
 
 ## Videos
 
