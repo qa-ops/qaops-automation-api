@@ -4,7 +4,6 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-import org.apache.http.HttpStatus;
 import org.junit.BeforeClass;
 
 import static io.restassured.RestAssured.basePath;
