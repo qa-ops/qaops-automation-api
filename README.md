@@ -65,6 +65,7 @@
 * Video 7 - `en-07-lombok-and-hashmap`
 * Video 8 - `en-08-alternative-test`
 
+
 ### Commands
 * `gradle init` - creates the gradle project
 * `gradle wrapper` - needed for creating create the gradle wrapper in order to run the gradlew
