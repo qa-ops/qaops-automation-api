@@ -22,20 +22,20 @@ public class UserTest extends BaseTest {
     @Test
     public void testSpecificPageIsDisplayed() {
         given().
-            param("page","2").
+            param("pages","2").
         when().
             get(LIST_USERS_ENDPOINT).
         then().
             statusCode(HttpStatus.SC_OK).
-            body("page", is(2)).
+            body("pages", is(2)).
             body("data", is(notNullValue()));
     }
 
     @Test
     public void testAbleToCreateNewUser() {
         Map<String, String> user = new HashMap<>();
-        user.put("name", "rafael");
-        user.put("job", "eng test");
+        user.put("nombre", "rafael");
+        user.put("trabajo", "eng test");
 
         given().
             body(user).
@@ -48,7 +48,7 @@ public class UserTest extends BaseTest {
 
     @Test
     public void testSizeOfItemsDisplayedAreTheSameAsPerPage() {
-        int expectedPage = 2;
+        int expectedPage = 3;
 
         int expectedItemsPerPage = getExpectedItemsPerPage(expectedPage);
 
